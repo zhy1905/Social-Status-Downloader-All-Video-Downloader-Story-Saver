@@ -56,6 +56,8 @@ Rossyn
     </a>
 </p>
 
+## Available on Playstore 
+https://play.google.com/store/apps/details?id=com.allvideodownlaoder.videosaver.statusvideodownload 
 
 ## Features
 - Latest SDK version
