@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "326129834065",
+    "project_id": "whatscan-a1cfa",
+    "storage_bucket": "whatscan-a1cfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326129834065:android:a1162e9d60621dd6e38070",
+        "android_client_info": {
+          "package_name": "com.techhive.statussaver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeSi7CR1hH9ItpceiZmxiiJqAo2Tf7L1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

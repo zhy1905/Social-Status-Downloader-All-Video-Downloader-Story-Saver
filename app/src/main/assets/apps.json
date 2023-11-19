@@ -1,0 +1,104 @@
+{
+  "apps": [
+    {
+      "id": 1,
+      "app_name": "Whatsapp",
+      "name": "Whatsapp",
+      "gujarati_name": "વોટ્સેપ",
+      "hindi_name": "व्हाट्सएप",
+      "icon": "ic_whatsaap",
+      "card_bg_color": "#F2F5F9",
+      "visible": true
+    },
+    {
+      "id": 2,
+      "app_name": "WA Business",
+      "name": "WA Business",
+      "gujarati_name": "વોટ્સેપ બિઝનેસ",
+      "hindi_name": "व्हाट्सएप बिजनेस",
+      "icon": "ic_wp_business",
+      "card_bg_color": "#F2F5F9",
+      "visible": true
+    },
+    {
+      "id": 3,
+      "app_name": "Instagram",
+      "name": "Instagram",
+      "gujarati_name": "ઇન્સ્ટાગ્રામ",
+      "hindi_name": "इंस्टाग्राम",
+      "icon": "ic_instagram",
+      "card_bg_color": "#F2F5F9",
+      "visible": true
+    },
+    {
+      "id": 4,
+      "app_name": "Pinterest",
+      "name": "Pinterest",
+      "gujarati_name": "પિન્ટરેસ્ટ",
+      "hindi_name": "पिनटेरेस्ट",
+      "icon": "ic_pinterest",
+      "card_bg_color": "#F2F5F9",
+      "visible": true
+    },
+    {
+      "id": 5,
+      "app_name": "Vimeo",
+      "name": "Vimeo",
+      "gujarati_name": "વિમેઓ",
+      "hindi_name": "वीमियो",
+      "icon": "ic_vimeo",
+      "card_bg_color": "#F2F5F9",
+      "visible": true
+    },
+    {
+      "id": 6,
+      "app_name": "Josh",
+      "name": "Josh",
+      "gujarati_name": "જોશ",
+      "hindi_name": "जोश",
+      "icon": "ic_josh_logo",
+      "card_bg_color": "#F2F5F9",
+      "visible": true
+    },
+    {
+      "id": 7,
+      "app_name": "Triller",
+      "name": "Triller",
+      "gujarati_name": "ટ્રિલર",
+      "hindi_name": "ट्रिलर",
+      "icon": "ic_triller",
+      "card_bg_color": "#F2F5F9",
+      "visible": true
+    },
+    {
+      "id": 8,
+      "app_name": "Chingari",
+      "name": "Chingari",
+      "gujarati_name": "ચિનગારી",
+      "hindi_name": "चिंगारी",
+      "icon": "ic_chingari",
+      "card_bg_color": "#F2F5F9",
+      "visible": true
+    },
+    {
+      "id": 9,
+      "app_name": "Daily Motion",
+      "name": "Daily Motion",
+      "gujarati_name": "ડેઇલી મોશન",
+      "hindi_name": "डेली मोशन",
+      "icon": "ic_dailymotion",
+      "card_bg_color": "#F2F5F9",
+      "visible": true
+    },
+    {
+      "id": 10,
+      "app_name": "youtube",
+      "name": "youtube",
+      "gujarati_name": "યુટ્યુબ",
+      "hindi_name": "यूट्यूब",
+      "icon": "ic_youtube",
+      "card_bg_color": "#F2F5F9",
+      "visible": false
+    }
+  ]
+}

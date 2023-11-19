@@ -1,0 +1,183 @@
+<resources>
+
+    <string name="btn_cancel">રદ કરો</string>
+    <string name="btn_ok">બરાબર</string>
+
+    <string name="wapp_permission">આ બટન પર ક્લિક કરો અને તમારા વોટ્સએપ સ્ટેટસને એક્સેસ કરવાની પરવાનગી આપો</string>
+    <string name="allow_storage_access">સ્ટોરેજ ઍક્સેસની મંજૂરી આપો</string>
+    <string name="step_1">સ્ટેપ 1</string>
+    <string name="first_step">Whatsapp ખોલવા માટે આયકન પર ટેપ કરો અને પહેલા તમારે Whatsapp પરથી સ્ટેટસ જોવાનું રહેશે</string>
+    <string name="wa_first_step">WA Business ખોલવા માટે આયકન પર ટેપ કરો અને પહેલા તમારે Whatsapp Business માંથી સ્ટેટસ જોવું પડશે</string>
+    <string name="step_2">સ્ટેપ 2</string>
+    <string name="second_step">એકવાર તમે Whatsapp માં સ્ટેટસ જોયા પછી આ એપ્લિકેશન ખોલો</string>
+    <string name="wa_second_step">એકવાર તમે Whatsapp બિઝનેસમાં સ્ટેટસ જોયા પછી આ એપ્લિકેશન ખોલો</string>
+    <string name="step_3">સ્ટેપ 3</string>
+    <string name="step_three">તમારું જોયેલું સ્ટેટસ અહીં આ એપમાં હશે અને અહીંથી તમે ડાઉનલોડ અને શેર કરી શકો છો</string>
+
+
+    <!--insta-->
+    <string name="dl_started">ડાઉનલોડ શરૂ થયું</string>
+    <string name="downloaded">મીડિયા સફળતાપૂર્વક ડાઉનલોડ થયું</string>
+    <string name="downloading">Please wait…Downloading Media</string>
+    <string name="write_permission_msg">વિડિયો અને ઇમેજને સાચવવા માટે સ્ટોરેજ લખવાની પરવાનગી જરૂરી છે</string>
+    <string name="yes">હા</string>
+    <string name="permission_req">પરવાનગી જરૂરી છે</string>
+    <string name="instagram_not_found">કૃપા કરીને આ એપ્લિકેશનનો ઉપયોગ કરવા માટે પહેલા Instagram ઇન્સ્ટોલ કરો.</string>
+    <string name="facebook_not_found">કૃપા કરીને આ એપનો ઉપયોગ કરવા માટે પહેલા Facebook ઇન્સ્ટોલ કરો.</string>
+    <string name="youtube_not_found">કૃપા કરીને આ એપ્લિકેશનનો ઉપયોગ કરવા માટે પહેલા youtube ઇન્સ્ટોલ કરો.</string>
+    <string name="dailymotion_not_found">કૃપા કરીને આ એપ્લિકેશનનો ઉપયોગ કરવા માટે પહેલા ડેલીમોશન ઇન્સ્ટોલ કરો.</string>
+    <string name="pinterest_not_found">કૃપા કરીને આ એપ્લિકેશનનો ઉપયોગ કરવા માટે પહેલા Pinterest ઇન્સ્ટોલ કરો.</string>
+
+    <!--tiktok-->
+    <string name="step_4">સ્ટેપ 4</string>
+    <string name="tik_server">https://tinyurl.com/3snv38ez</string>
+    <string name="tik_location">Location</string>
+    <string name="tik_not_marked">not_marked</string>
+
+    <string name="whatsapp">વોટ્સેપ</string>
+    <string name="wa_business">વોટ્સેપ બિઝનેસ</string>
+    <string name="instagram">ઇન્સ્ટાગ્રામ</string>
+    <string name="tiktok">Tiktok</string>
+    <string name="likee">Likee</string>
+    <string name="fb">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="gallery">ગેલેરી</string>
+    <string name="vimeo">વિમેઓ</string>
+    <string name="recent_status">રિસેન્ટ સ્ટેટસ</string>
+    <string name="help">મદદ</string>
+    <string name="snackvideo">SnackVideo</string>
+    <string name="sharechat">ShareChat</string>
+    <string name="roposo">Roposo</string>
+    <string name="chingari">ચિનગારી</string>
+    <string name="moj">Moj</string>
+    <string name="mx_takatak">MX TakaTak</string>
+    <string name="invalid">અમાન્ય URL!!!</string>
+    <string name="mitron">Mitron</string>
+    <string name="zili">Zili</string>
+
+
+    <string name="delete">કાઢી નાખો</string>
+    <string name="deleteConfirmation">શું તમે ખરેખર તેને કાઢી નાખવા માંગો છો?</string>
+    <string name="no">ના</string>
+    <string name="saveSuccess">Saved successfully!</string>
+    <string name="errFile">Sorry we can\'t move file.try with other file.</string>
+    <string name="vidDownloading">વિડિઓ પહેલેથી જ ડાઉનલોડ થઈ રહી છે</string>
+    <string name="allApplication">બધી એપ્લિકેશનો</string>
+    <string name="my_gallery">મારી ગેલેરી</string>
+    <string name="privacy">પ્રાઇવસી પોલિસી</string>
+    <string name="settings">સેટિંગ્સ</string>
+    <string name="download_from_private_account">પ્રાઈવેટ એકાઉન્ટમાંથી ડાઉનલોડ કરો</string>
+    <string name="enter_url">Enter url</string>
+    <string name="enter_valid_url">Enter valid url</string>
+    <string name="app_not_available">એપ્લિકેશન ઉપલબ્ધ નથી.</string>
+
+    <string name="view_stories">સ્ટોરીઝ જુઓ અને પ્રાઈવેટ એકાઉન્ટમાંથી ડાઉનલોડ કરો</string>
+    <string name="login">લૉગિન કરો</string>
+    <string name="stories">Stories</string>
+    <string name="cancel">રદ કરો</string>
+    <string name="do_u_want_to_download_media_from_pvt">પ્રાઈવેટ એકાઉન્ટમાંથી મીડિયા ડાઉનલોડ કરવા નથી માંગતા?</string>
+    <string name="no_net_conn">ઇન્ટરનેટ કનેક્શન નથી</string>
+    <string name="downloadin_video">વિડીયો ડાઉનલોડ કરી રહ્યા છીએ…</string>
+    <string name="download_complete">ડાઉનલોડ પૂર્ણ થયું</string>
+
+    <string name="facebook_api_base_url"></string>
+    <string name="img_todo">imgTODO</string>
+    <string name="josh">જોશ</string>
+    <string name="download_failed">ડાઉનલોડ નિષ્ફળ થયું</string>
+
+    <string name="text_notif_download_error">માફ કરશો, ડાઉનલોડ કરતી વખતે ભૂલ આવી છે…</string>
+    <string name="text_notif_download_finished">ડાઉનલોડ સમાપ્ત!</string>
+    <string name="text_notif_downloading">ડાઉનલોડ કરી રહ્યું છે</string>
+    <string name="text_notif_stop">તમે ડાઉનલોડ કરવાનું બંધ કર્યું</string>
+    <string name="youtube">યુટ્યુબ</string>
+
+    <string name="rationale_storage">આ એપ્લિકેશનને સ્ટોરેજ પરવાનગીની જરૂર છે. કૃપા કરીને તેને મંજૂરી આપો!</string>
+    <string name="chingari_step_1">સૌપ્રથમ ચિનગારી બટન પર ક્લિક કરો અને ચિનગારી એપ ખોલો.</string>
+    <string name="chingari_step_2">ચિનગારી વિડિયો પર વધુ બટન આઇકોન પર ક્લિક કરો.</string>
+    <string name="chingari_step_3">\'શેર લિંક\' વિકલ્પ પર ક્લિક કરો.</string>
+
+    <string name="common_step">લિંક પેસ્ટ કરો અને ડાઉનલોડ બટન પર ટેપ કરો. વિડિઓ આપમેળે ડાઉનલોડ થશે અને વિડિઓ તમારા ઉપકરણ પર સાચવવામાં આવશે. તમે આ એપ્લિકેશનની ગેલેરી પર ડાઉનલોડ કરેલ તમામ મીડિયા જોઈ શકો છો.</string>
+
+    <string name="fb_step_1">સૌપ્રથમ ફેસબુક બટન પર ક્લિક કરો અને ફેસબુક ખોલો.</string>
+    <string name="fb_step_2">ફેસબુક પોસ્ટ પર ત્રણ બિંદુઓ વિકલ્પ આઇકોન પર ક્લિક કરો.</string>
+    <string name="fb_step_3">\'Copy Link\' વિકલ્પ પર ક્લિક કરો.</string>
+
+    <string name="instagram_step_3">\'Copy Link\' વિકલ્પ પર ક્લિક કરો.</string>
+    <string name="instagram_step_2">ઇન્સ્ટાગ્રામ પોસ્ટ પર ત્રણ બિંદુઓ વિકલ્પ આઇકોન પર ક્લિક કરો.</string>
+    <string name="instagram_step_1">સૌપ્રથમ ઈન્સ્ટાગ્રામ બટન પર ક્લિક કરો અને ઈન્સ્ટાગ્રામ ખોલો.</string>
+
+    <string name="josh_step_3">\'Copy Link\' વિકલ્પ પર ક્લિક કરો.</string>
+    <string name="josh_step_2">જોશ વિડીયો પર ત્રણ ડોટ આઇકોન પર ક્લિક કરો.</string>
+    <string name="josh_step_1">સૌપ્રથમ જોશ બટન પર ક્લિક કરો અને જોશ એપ ખોલો.</string>
+
+    <string name="triller_step_3">\'Copy Link\' વિકલ્પ પર ક્લિક કરો.</string>
+    <string name="triller_step_2">Triller વિડિયો પર શેર બટન આઇકોન પર ક્લિક કરો.</string>
+    <string name="triller_step_1">પહેલા Triller બટન પર ક્લિક કરો અને ટ્રિલર એપ ખોલો.</string>
+
+    <string name="vimeo_step_4">\'Copy Link\' વિકલ્પ પર ક્લિક કરો.</string>
+    <string name="vimeo_step_3">શેર વિકલ્પ પર ક્લિક કરો.</string>
+    <string name="vimeo_step_2">શેર બટન પર ક્લિક કરો.</string>
+    <string name="vimeo_step_1">સૌથી પહેલા vimeo બટન પર ક્લિક કરો અને vimeo એપ ઓપન કરો.</string>
+
+    <string name="youtube_step_3">\'Copy Link\' વિકલ્પ પર ક્લિક કરો.</string>
+    <string name="youtube_step_4">શેર વિકલ્પ પર ક્લિક કરો.</string>
+    <string name="youtube_step_2">યુટ્યુબ વિડીયો પર ત્રણ ડોટ ઓપ્શન આઇકોન પર ક્લિક કરો.</string>
+    <string name="youtube_step_1">સૌપ્રથમ યુટ્યુબ બટન પર ક્લિક કરો અને યુટ્યુબ એપ ઓપન કરો.</string>
+
+
+    <string name="dailymotion_step_3">\'Copy Link\' વિકલ્પ પર ક્લિક કરો.</string>
+    <string name="dailymotion_step_2">શેર વિકલ્પ પર ક્લિક કર.</string>
+    <string name="dailymotion_step_1">સૌપ્રથમ ડેઈલીમોશન બટન પર ક્લિક કરો અને ડેઈલીમોશન એપ ખોલો.</string>
+
+    <string name="pint_step_3">\'Copy Link\' વિકલ્પ પર ક્લિક કરો.</string>
+    <string name="pint_step_2">શેર વિકલ્પ પર ક્લિક કર.</string>
+    <string name="pint_step_1">પ્રથમ Pinterest બટન પર ક્લિક કરો અને Pinterest એપ્લિકેશન ખોલો.</string>
+    <string name="triller">ટ્રિલર</string>
+    <string name="dailymotion">ડેઇલી મોશન</string>
+    <string name="snapChat">Snapchat</string>
+    <string name="pinterest">પિન્ટરેસ્ટ</string>
+    <string name="paste">પેસ્ટ કરો</string>
+    <string name="download">ડાઉનલોડ</string>
+    <string name="language">ભાષા</string>
+    <string name="dark_mode">ડાર્ક મોડ</string>
+    <string name="rate_us">અમને રેટ કરો</string>
+    <string name="share_app">એપ શેર કરો</string>
+    <string name="privacy_policy">પ્રાઇવસી પોલિસી</string>
+    <string name="more_apps">વધુ એપ્સ</string>
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="gujarti">Gujarati</string>
+
+    <string name="paste_link_here">લિંક અહીં પેસ્ટ કરો</string>
+    <string name="how_to_use">કેવી રીતે વાપરવું?</string>
+    <string name="click_on_copy_link_option">\'Copy Link\' વિકલ્પ પર ક્લિક કરો.</string>
+    <string name="share">શેર કરો</string>
+    <string name="save">સેવ</string>
+    <string name="step_5">સ્ટેપ 5</string>
+    <string name="loading">લોડ કરી રહ્યું છે.....</string>
+    <string name="select_video_quality">Select Video Quality</string>
+    <string name="low_quality">Low Quality</string>
+    <string name="high_quality">High Quality</string>
+    <string name="there_s_no_status">ત્યાં કોઈ સ્ટેટ્સ નથી.</string>
+    <string name="there_s_nothing_here">અહીં કંઈ નથી.</string>
+    <string name="preview">Preview</string>
+    <string name="paste_url_and_download">કૃપા કરીને url પેસ્ટ કરો અને ડાઉનલોડ કરો!!!!</string>
+    <string name="url_not_exits">Url અસ્તિત્વમાં નથી!!!!</string>
+    <string name="internet_not_available">ઇન્ટરનેટ કનેક્શન ઉપલબ્ધ નથી!!!!</string>
+    <string name="status_save_success">સ્ટેટસ સફળતાપૂર્વક સાચવવામાં આવ્યું</string>
+    <string name="sry_we_cant_move_this_file">માફ કરશો અમે ફાઇલને ખસેડી શકતા નથી. અન્ય ફાઇલ સાથે પ્રયાસ કરો.</string>
+    <string name="whatsapp_not_available">તમારા ઉપકરણમાં Whatsapp ઇન્સ્ટોલ નથી!</string>
+    <string name="download_whatsapp">ડાઉનલોડ સ્ટેટસ માટે કૃપા કરીને WhatsApp ઇન્સ્ટોલ કરો!!!!!</string>
+    <string name="download_whatsapp_business">ડાઉનલોડ સ્ટેટસ માટે કૃપા કરીને WhatsApp Business ઇન્સ્ટોલ કરો!!!!!</string>
+
+    <string name="no_advertisment">કોઈ જાહેરાત નથી</string>
+    <string name="oneTimePurchase">એક સમયની ખરીદી</string>
+    <string name="purchase_now">હવે ખરીદો</string>
+    <string name="history">મેરી હિસ્ટરી</string>
+    <string name="no_hostory_found">કોઈ હિસ્ટરી મળી નથી</string>
+    <string name="no_purchase_found">No Purchase Found</string>
+    <string name="purchase_successfully">Purchase Successfully</string>
+
+    <string name="chingari_not_found">Please Install Chingari First For Use This App.</string>
+</resources>

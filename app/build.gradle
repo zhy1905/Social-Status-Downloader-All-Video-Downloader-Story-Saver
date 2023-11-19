@@ -1,0 +1,189 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+}
+
+def license_key = '\"paste your license key here...."'
+
+android {
+    namespace 'com.techhive.statussaver'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.techhive.statussaver"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        setProperty("archivesBaseName", "AllStatusDownloader")
+
+        vectorDrawables {
+            useSupportLibrary true
+        }
+
+        ndk {
+            abiFilters 'x86', 'x86_64', 'armeabi-v7a', 'arm64-v8a'
+        }
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField 'String', 'LICENSE_KEY', license_key
+        }
+        releasedebug {
+            initWith debug
+            buildConfigField 'String', 'LICENSE_KEY', license_key
+        }
+        debug {
+            buildConfigField 'String', 'LICENSE_KEY', license_key
+        }
+
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        compose true
+        buildConfig = true
+    }
+    dataBinding {
+        enabled = true
+    }
+    viewBinding {
+        enabled = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion '1.3.2'
+    }
+    packagingOptions {
+        resources {
+            excludes += '/META-INF/{AL2.0,LGPL2.1}'
+        }
+        jniLibs {
+            useLegacyPackaging = true
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+    /* Reduce apk size */
+    /* splits {
+         abi {
+             enable true
+             reset()
+             include 'arm64-v8a', 'armeabi-v7a', 'x86', 'x86_64'
+             universalApk false
+         }
+     }*/
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.8.0'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.1'
+    implementation 'androidx.activity:activity-compose:1.5.1'
+
+    implementation 'com.google.android.material:material:1.6.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
+
+    implementation platform('androidx.compose:compose-bom:2022.10.00')
+    androidTestImplementation platform('androidx.compose:compose-bom:2022.10.00')
+    implementation 'androidx.compose.ui:ui'
+    implementation 'androidx.compose.ui:ui-graphics'
+    implementation 'androidx.compose.ui:ui-tooling-preview'
+    implementation 'androidx.compose.material3:material3'
+
+    debugImplementation 'androidx.compose.ui:ui-tooling'
+    debugImplementation 'androidx.compose.ui:ui-test-manifest'
+
+
+
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+
+    implementation 'com.airbnb.android:lottie:6.1.0'
+
+    implementation 'com.github.bumptech.glide:glide:4.13.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+    implementation 'com.github.franmontiel:PersistentCookieJar:v1.0.1'
+
+    implementation 'de.hdodenhof:circleimageview:2.1.0' // circle image for storys
+    implementation 'io.github.florent37:shapeofview:1.4.7'
+
+    implementation 'org.jsoup:jsoup:1.13.1'
+
+
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1' //    rxjava and https response
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.12'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.7.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.8.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.8.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.3.1'
+    implementation 'com.squareup.okhttp3:okhttp:4.3.1'
+
+
+    implementation "androidx.room:room-runtime:2.5.2" //    roomdatabase
+    annotationProcessor "androidx.room:room-compiler:2.5.2"
+
+
+
+    implementation platform('com.google.firebase:firebase-bom:30.3.2') //Firebase
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-config'
+    implementation 'com.google.firebase:firebase-inappmessaging-display'
+    implementation 'com.google.firebase:firebase-messaging'
+
+
+
+//    implementation 'com.github.yausername.youtubedl-android:library:0.15.0'
+    implementation 'com.github.yausername.youtubedl-android:library:-SNAPSHOT' //    for youtube downloader
+    implementation 'com.github.yausername.youtubedl-android:library:-SNAPSHOT'
+    implementation 'com.github.yausername.youtubedl-android:ffmpeg:-SNAPSHOT'
+    implementation 'pub.devrel:easypermissions:3.0.0'
+
+//    implementation 'com.facebook.infer.annotation:infer-annotation:0.18.0'
+    implementation 'com.google.android.play:app-update:2.1.0' // in app update
+
+
+    implementation 'com.onesignal:OneSignal:[5.0.0, 5.99.99]' // onesignal messages
+
+
+    def billing_version = "6.0.0" // in app purchase
+    implementation "com.android.billingclient:billing:$billing_version"
+    implementation 'com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava'
+    implementation 'com.google.guava:guava:24.1-jre'
+    implementation project(path: ':google-iab')
+
+//    implementation 'com.github.moisoni97:google-inapp-billing:1.1.3'
+
+    implementation 'com.google.android.gms:play-services-ads:22.4.0' // admob   ads
+    implementation 'com.google.android.ump:user-messaging-platform:2.1.0'
+
+    implementation 'com.facebook.android:audience-network-sdk:6.16.0' // facebook
+    implementation 'com.google.ads.mediation:facebook:6.16.0.0'
+
+}

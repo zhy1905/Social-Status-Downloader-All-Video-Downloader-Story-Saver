@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <!-- Tab title -->
+    <TextView
+        android:id="@+id/tab_title"
+        android:layout_width="@dimen/_80sdp"
+        android:textStyle="bold"
+        android:padding="@dimen/_5sdp"
+        android:singleLine="true"
+        android:gravity="center"
+        android:textSize="@dimen/_14sdp"
+        android:layout_height="@dimen/_30sdp"/>
+
+</LinearLayout>

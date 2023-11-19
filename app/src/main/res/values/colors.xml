@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2574f4</color>
+    <color name="scolor">@color/colorPrimary</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#7568D5</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_trans">#00FFFFFF</color>
+
+    <color name="trans_color">#407568D5</color>
+
+    <!--UI Colors-->
+    <color name="bg_color">#f5f5f5</color>
+
+    <color name="bg_color_home">#f5f5f5</color>
+
+    <color name="edit_text_color_home">#e8e8e8</color>
+
+    <color name="main_bg_home_color">#f5f7ff</color>
+
+    <color name="home_btn_bg_color">#fff</color>
+    <color name="home_right_arrow_color">#2D3495</color>
+    <color name="home_btn_txt">#4D5A78</color>
+    <color name="sub_tab_bg_color">@color/help_bg_color</color>
+    <color name="tab_press_bg">#3D3DAA</color>
+    <color name="tab_unpress_bg">#ffffff</color>
+    <color name="tab_press_text_color">#2574f4</color>
+    <color name="tab_press_text_color1">#ffffff</color>
+    <color name="tab_unpress_text_color">#4D5A78</color>
+    <color name="tab_unpress_text_color1">#4D5A78</color>
+    <color name="ic_icon_bg_color">#ffffff</color>
+    <color name="circle_bg_color">#ccffffff</color>
+    <color name="recent_circle_bg_color">#cc000000</color>
+    <color name="txt_bg_color">#fff</color>
+    <color name="download_btn_text_color">#fff</color>
+    <color name="download_btn_color">#3D3DAA</color>
+    <color name="help_text_color">#000</color>
+    <color name="help_bg_color">#ffffff</color>
+    <color name="top_text_color">#fff</color>
+
+    <!--settings UI-->
+    <color name="settings_icon_color">#000</color>
+    <color name="switch_track_color">#D3D3D3</color>
+    <color name="switch_thumb_color">#3739A2</color>
+    <color name="settings_divider_color">#D3D3D3</color>
+    <color name="setting_txt_color">#2D3C5C</color>
+    <color name="toolbar_color">@color/bg_color_home</color>
+
+
+    <color name="wt_color">#ECFDF3</color>
+    <color name="insta_color">#FBECF1</color>
+    <color name="tiktok_color">#F0FAFB</color>
+    <color name="triller_color">#F7F0F8</color>
+    <color name="fb_color">#E7F3FE</color>
+    <color name="snack_color">#FFFCEE</color>
+    <color name="twitter_color">#EDF7FC</color>
+    <color name="sChat_color">#F5F0F9</color>
+    <color name="youtube_color">#F6E8E4</color>
+    <color name="dailymotion_color">#E9F1FB</color>
+    <color name="pin_color">#FFEDED</color>
+
+    <color name="moj_color">#FFF9E6</color>
+    <color name="mx_color">#FFEBF0</color>
+    <color name="roposo_color">#F0EAFD</color>
+
+    <color name="chinggari_color">#FEF0EC</color>
+    <color name="mitrron_color">#FFFEE6</color>
+    <color name="zill_color">#FFFEE6</color>
+
+    <color name="vimeo_color">#E6F9FB</color>
+
+    <color name="gal_color">#F2F5F9</color>
+
+
+    <color name="gal_text_color">#2D3C5C</color>
+    <color name="ws_text_color">#12B76A</color>
+    <color name="btn_txt">#2D3C5C</color>
+    <color name="colorApp">#2D3C5C</color>
+    <color name="toolbar_text">#2574f4</color>
+    <color name="insta_bg_color">#C23091</color>
+    <color name="mitron_color">#E83710</color>
+    <color name="moj_t_color">#FFFF9C00</color>
+    <color name="ropo_t_color">#D4264E</color>
+    <color name="share_t_color">#FFA233</color>
+    <color name="snack_t_color">#F7E14D</color>
+    <color name="tik_t_color">#EE1D52</color>
+    <color name="tmx_t_color">#FA3163</color>
+    <color name="twitter_t_color">#47ACDF</color>
+    <color name="vimeo_t_color">#00BCD4</color>
+    <color name="zili_t_color">#000000</color>
+    <color name="triller_t_color">#c22c7b</color>
+    <color name="fb_bg_color">#FF0163E0</color>
+    <color name="josh_t_color">#FFD20FA0</color>
+
+    <color name="sdColor">#93c757</color>
+    <color name="hdColor">#f4483f</color>
+
+    <color name="setting_text_color">#34383E</color>
+
+    <color name="edit_text_color_hint">#34383E</color>
+
+</resources>

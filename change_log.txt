@@ -1,0 +1,28 @@
+=============================
+Social Status Downloader Update History
+=============================
+
+Updated Date : 06-10-2023
+=============================
+# Multi-Language Supported.
+# Remove Ads(One Time Purchase).
+# created a JSON file that allows you to hide or show any application of your choice.
+# Added My History Page. (Downloaded Urls file).
+
+Updated Date : 05-09-2023
+=============================
+# Added Youtube video downloader.
+# Added Pinterest video downloader.
+
+
+=============================
+Updated Date : 31-08-2023
+=============================
+# Update build.gradle file.
+	- replace implementation 'com.github.yausername.youtubedl-android:library:0.15.0' this library with implementation 		  	 	'com.github.yausername.youtubedl-android:library:-SNAPSHOT'this.  
+# Update proguars-rules.pro file.
+# Removed Youtube video downloader.
+# Added Dailly motion video downloader.
+
+
+

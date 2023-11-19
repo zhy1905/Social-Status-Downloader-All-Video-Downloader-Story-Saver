@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Theme Installation Steps</title>
+    <link href="files/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="files/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="files/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/files/images/favicon.png" sizes="16x16"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="files/fonts/font.css" type="text/css" media="all"> -->
+    <script>
+        document.createElement('section');
+            var duration = 500, easing = 'swing';
+    </script>
+    <script src="files/js/jquery.js" type="text/javascript"></script>
+    <script src="files/js/jquery.colorbox.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+            jQuery(function() {
+                jQuery('.menu li.toclevel-1:nth-child(1) a').addClass('active');
+            });
+
+            jQuery(".uploadtheme").colorbox({iframe: true, innerWidth: 640, innerHeight: 390});
+
+            jQuery('a[href*=#]').bind('click', function (e) {
+                e.preventDefault(); // prevent hard jump, the default behavior
+
+                var target = jQuery(this).attr("href"); // Set the target as variable
+
+                // perform animated scrolling by getting top-position of target-element and set it as scroll target
+                jQuery('html, body').stop().animate({
+                    scrollTop: jQuery(target).offset().top
+                }, 1000, function () {
+                    location.hash = target; //attach the hash (#jumptarget) to the pageurl
+                });
+                return false;
+            });
+            jQuery(window).scroll(function () {
+                var scrollDistance = jQuery(window).scrollTop();
+                jQuery('section').each(function (i) {
+                    if (jQuery(this).position().top <= scrollDistance) {
+                        jQuery('.menu li.toclevel-1 a.active').removeClass('active');
+                        jQuery('.menu li.toclevel-1 a').eq(i).addClass('active');
+                    }
+                });
+            }).scroll();
+            $(document).scroll(function(){
+        if($(this).scrollTop() >300)
+     {   
+        $('.left').css({"position":"fixed","top":"100px"});
+    }
+    else if($(this).scrollTop() <300){
+        $('.left').css({"position":"absolute","top":"auto"});
+    }
+});
+        });
+    </script>
+    <div class="header-area">
+        <div class="div-container">
+            <div class="logo">
+                <img src="files/images/logo.png" alt="logo" />
+            </div>
+        </div>
+    </div>
+
+</head>
+
+
+
+<body>
+    <div class="div-container">
+        <br><br><br><br><br>
+		<h3 class="logo">&ldquo;Social Status Downloader&rdquo; Documentation by &ldquo;ImperiaThemes&rdquo; v1.0</h3>
+
+        <br>
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 24-08-2023<br>
+					By:  ImperiaThemes<br>
+					Email: <a href="mailto:gadhiya_mitul@yahoo.com">gadhiya_mitul@yahoo.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+            <br>
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/ImperiaThemes">here</a>. Thanks so much!</p>
+			</div>
+	</div>
+    <div class="content-area">
+        <div class="left">
+            <aside id="secondary" class="sidebar widget-area">
+            <ul class="menu">
+                <li class="toclevel-1"><a href="#androidstep1"><span>Step 1 : </span> Which Android Studio version is needed? </a>
+                </li>
+                <li class="toclevel-1"><a href="#androidstep2"><span>Step 2 : </span> How to Open The Project in Android Studio? </a>
+                </li>
+                <li class="toclevel-1"><a href="#androidstep3"><span>Step 3 : </span> How to change the package name? </a>
+                </li>
+                <li class="toclevel-1"><a href="#androidstep4"><span>Step 4 : </span> How to change app name? </a>
+                </li>
+                <li class="toclevel-1"><a href="#androidstep5"><span>Step 5 : </span> How to change Application Icon? </a>
+                </li>
+                <li class="toclevel-1"><a href="#androidstep6"><span>Step 6 : </span> How to change admob id's? </a>
+                </li>
+                <li class="toclevel-1"><a href="#androidstep7"><span>Step 7 : </span> How to change facebook ads id's? </a>
+                </li>
+                <li class="toclevel-1"><a href="#androidstep8"><span>Step 8 : </span> How to change admob id's? </a>
+                </li>
+                <li class="toclevel-1"><a href="#androidstep9"><span>Step 9 : </span> How to hide youtube? </a>
+                </li>
+                <li class="toclevel-1"><a href="#androidstep10"><span>Step 10 : </span> How to add Product_id and Licences key for In app Product?</a>
+                </li>
+                <br>
+            </ul>
+            </aside>
+        </div>
+
+        <div class="right">
+            <div class="primary">
+            <h2 class="app-title" style="padding-top:40px;">Social Status Downloader</h2>
+            <section id="androidstep1" class="androidstep">
+                <h2 style="padding-top:40px;">Step 1 : Which Android Studio version is needed?</h2>
+                <ul>
+                    <li>Latest Android Studio version is recommended.</li></br>
+                    <a href="files/images/step1.png">
+                        <img alt="" src="files/images/step1.png" />
+                    </a>
+                </ul>
+            </section>
+            <section id="androidstep2" class="androidstep">
+                <h2 style="padding-top:40px;">Step 2 : How to Open The Project in Android Studio?</h2>
+                <ul>
+                    <li><b>1.</b> Unzip Project Folder.</li></br>
+                    <a href="files/images/step2.png">
+                        <img alt="" src="files/images/step2.png" />
+                    </a>
+                    <li><b>2.</b> Open Android Studio > Open an Existing Android Studio Project > Select Your Project > ok.</li></br>
+                    <a href="files/images/step2.1.png">
+                        <img alt="" src="files/images/step2.1.png" />
+                    </a>
+                    <li><b>3.</b> Wait for Gradle Process.</li></br>
+                    <li><b>4.</b> Click on Run and install.</li></br>
+                </ul>
+            </section>
+            <section id="androidstep3" class="androidstep">
+                <h2 style="padding-top:40px;">Step 3 : How to change the package name?</h2>
+                <ul>
+                    <li><h2>You can change it easily from Android Studio. Here are the steps:</h2></li>
+                    <li><b>1.</b> In the Project pane, click on the little gear icon. Uncheck/Deselect the Compact Empty Middle Packages option.</li></br>
+                    <a href="files/images/step3.png">
+                        <img alt="" src="files/images/step3.png" />
+                    </a>
+                    <li><b>2.</b> Your package directory will now be broken up in individual directories.</li></br>
+                    <a href="files/images/step3.1.png">
+                        <img alt="" src="files/images/step3.1.png" />
+                    </a>
+                    <li><b>3.</b> Individually select each directory you want to rename, and: Right-click it Select Refactor Click on Rename In the Pop-up dialog.</li></br>
+                    <a href="files/images/step3.2.png">
+                        <img alt="" src="files/images/step3.2.png" />
+                    </a>
+                    <li><b>4.</b> Click on Rename Package instead of Rename Directory Enter the new name and hit Refactor Allow a minute to let Android Studio update all changes.</li></br>
+                    <a href="files/images/step3.3.png">
+                        <img alt="" src="files/images/step3.3.png" />
+                    </a>
+                    <li><b>5.</b> Now open your build.gradle (Usually 'app' or 'mobile'). Update the applicationId to your Package Name and Sync Gradle, if it hasn't already been updated automatically.</li></br>
+                    <a href="files/images/step3.4.png">
+                        <img alt="" src="files/images/step3.4.png" />
+                    </a>
+                    <h2 style="padding-top:40px;">NOTE: When renaming com in Android Studio, it might give a warning. In such case, select Rename All. </h2>
+                </ul>
+            </section>
+            <section id="androidstep4" class="androidstep">
+                <h2 style="padding-top:40px;">Step 4 : How to change app name?</h2>
+                <ul>
+                    <li><b>1.</b> Open Android Studio > SocialStatusDownloader > res > values > strings.xml.</li></br>
+                    <li><b>2.</b> Enter your app name inside "app_name" string tag: </br>
+                           &lt;string name="app_name"&gt; SocialStatusDownloader &lt;/string&gt;</li></br>
+                    <a href="files/images/step4.png">
+                        <img alt="" src="files/images/step4.png" />
+                    </a>
+                </ul>
+            </section>
+            <section id="androidstep5" class="androidstep">
+                <h2 style="padding-top:40px;">Step 5 : How to change Application Icon?</h2>
+                <ul>
+                    <li><b>1.</b> Open Android Studio > app > res >.</li></br>
+                    <li><b>2.</b> Replace your icon with ic_launcher.png and paste in all mipmap folders.</li></br>
+                    <a href="files/images/step5.png">
+                        <img alt="" src="files/images/step5.png" />
+                    </a>
+                </ul>
+            </section>
+            <section id="androidstep6" class="androidstep">
+                <h2 style="padding-top:40px;">Step 6 : How to change admob id's?</h2>
+                <ul>
+                    <li><b>1.</b> Open Android Studio > SocialStatusDownloader > res > values > strings.xml.</li></br>
+                    <li><b>2.</b> Enter your admob app id inside "admob_app_id" string tag: </br></br>
+                                &lt;string name="admob_app_id"&gt; ca-app-pub-3940256099942544~3347511713 &lt;/string&gt;</li>
+                                &lt;string name="admob_banner_id"&gt; ca-app-pub-3940256099942544/6300978111 &lt;/string&gt;</li></br>
+                                &lt;string name="admob_interstitial_id"&gt; ca-app-pub-3940256099942544/1033173712 &lt;/string&gt;</li></br>
+                              
+                                <a href="files/images/step6.png">
+                                    <img alt="" src="files/images/step6.png" />
+                                </a>
+                </ul>
+            </section>
+            <section id="androidstep7" class="androidstep">
+                <h2 style="padding-top:40px;">Step 7 : How to change facebook ads id's?</h2>
+                <ul>
+                    <li><b>1.</b> Open Android Studio > SocialStatusDownloader > res > values > strings.xml.</li></br>
+                             </li>
+                                <a href="files/images/step7.png">
+                                    <img alt="" src="files/images/step7.png" />
+                                </a>
+                            </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+                           
+                </ul>
+            </section>
+    
+            <section id="androidstep8" class="androidstep">
+                <h2 style="padding-top:40px;">Step 8 : How to change oneSignal id?</h2>
+                <ul>
+                    <li><b>1.</b> Open Android Studio > SocialStatusDownloader > java > MyApp.java</li></br>
+                    <li><b>2.</b> Enter your oneSignal id inside "ONESIGNAL_APP_ID" string tag: </br></br>
+                             </li>
+                                <a href="files/images/step8.png">
+                                    <img alt="" src="files/images/step8.png" />
+                                </a>
+                            </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+                           
+                </ul>
+            </section>
+
+            <section id="androidstep9" class="androidstep">
+                <h2 style="padding-top:40px;">Step 9 : How to hide youtube?</h2>
+                <ul>
+                    <li><b>1.</b> Open Android Studio > SocialStatusDownloader > assets > apps.json file</li></br>
+                    <li><b>2.</b> change visible key with true or false </br></br>
+                             </li>
+                                <a href="files/images/step9.png">
+                                    <img alt="" src="files/images/step9.png" />
+                                </a>
+                            </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+                           
+                </ul>
+            </section>
+    
+            <section id="androidstep10" class="androidstep">
+                <h2 style="padding-top:40px;">Step 10 : </span> How to add Product_id and Licences key for In app Product?</h2>
+                <ul>
+                    <li><b>1.</b> Open your developer google play console > then click on Left navigation > open Monetize -> Products -> In-app products  </li></br>
+                                <a href="files/images/step10.1.png">
+                                    <img alt="" src="files/images/step10.1.png" />
+                                </a>
+                            
+                    <li><b>2.</b> Click On Create Product Button</br></br> </li>      
+                                <a href="files/images/step10.2.png">
+                                    <img alt="" src="files/images/step10.2.png" />
+                                </a> 
+                            
+                    <li><b>3.</b> Add Product_id,name,description and set price. And save this record.</br></br> </li>      
+                            <a href="files/images/step10.3.png">
+                                <img alt="" src="files/images/step10.3.png" />
+                            </a> 
+                            <a href="files/images/step10.4.png">
+                                <img alt="" src="files/images/step10.4.png" />
+                            </a>
+                          
+
+                    <li><b>4.</b>copy the product_id and  Open Android Studio > SocialStatusDownloader > java > HomeActivity.java > Paste the id in PRODUCT_ID variable.</br></br> </li>      
+                        <a href="files/images/step10.5.png">
+                            <img alt="" src="files/images/step10.5.png" />
+                        </a> 
+                  
+                    <li><b>5.</b>Add LicenceKey.</br></br> </li>      
+                    <li><b>5.1.</b>Open your developer google play console > then click on Left navigation > Monetization setup > copy Licensing.</br></br> </li>      
+                        <a href="files/images/step10.7.png">
+                        <img alt="" src="files/images/step10.7.png" />
+                        </a> 
+                          
+                    <li><b>5.2.</b>copy the Licences key and  Open Android Studio > SocialStatusDownloader > build.gradle File > Paste the LicenceKey in license_key variable.</br></br> </li>      
+                    <a href="files/images/step10.6.png">
+                        <img alt="" src="files/images/step10.6.png" />
+                    </a> 
+                </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>     
+                </ul>
+            </section>
+    
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#23d983</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#23d983</color>
+
+    <color name="scolor">#FFFFFF</color>
+    <color name="black">#FFFFFF</color>
+    <color name="white">#000000</color>
+
+    <!--UI Colors-->
+    <color name="bg_color_home">#121212</color>
+    <color name="main_bg_home_color">#171A21</color>
+
+    <color name="home_btn_bg_color">#23d983</color>
+    <color name="home_right_arrow_color">#fff</color>
+    <color name="home_btn_txt">#000</color>
+
+    <color name="sub_tab_bg_color">#4A4956</color>
+
+    <color name="tab_press_bg">#27293A</color>
+    <color name="tab_unpress_bg">#DAD5D5</color>
+    <color name="tab_press_text_color">#ffffff</color>
+    <color name="tab_press_text_color1">#ffffff</color>
+    <color name="tab_unpress_text_color">#DAD5D5</color>
+    <color name="tab_unpress_text_color1">#000</color>
+    <color name="ic_icon_bg_color">#ffffff</color>
+    <color name="circle_bg_color">#ccffffff</color>
+    <color name="recent_circle_bg_color">#cc000000</color>
+    <color name="txt_bg_color">#fff</color>
+    <color name="download_btn_text_color">#fff</color>
+    <color name="download_btn_color">#27293A</color>
+    <color name="help_text_color">#fff</color>
+
+    <color name="help_bg_color">@color/sub_tab_bg_color</color>
+
+    <color name="top_text_color">#fff</color>
+
+    <!--settings UI-->
+    <color name="settings_icon_color">#fff</color>
+    <color name="switch_track_color">#CACACA</color>
+    <color name="switch_thumb_color">#fff</color>
+    <color name="settings_divider_color">#fff</color>
+
+    <color name="setting_txt_color">#8FACEA</color>
+
+    <color name="edit_text_color_hint">@color/download_btn_text_color</color>
+
+
+    <color name="gal_text_color">#2D3C5C</color>
+    <color name="btn_txt">#fff</color>
+    <color name="colorApp">#fff</color>
+
+
+    <color name="toolbar_color">@color/bg_color_home</color>
+    <color name="toolbar_text">#fff</color>
+    <color name="insta_bg_color">#C23091</color>
+    <color name="mitron_color">#E83710</color>
+    <color name="moj_t_color">#FFFF9C00</color>
+    <color name="ropo_t_color">#D4264E</color>
+    <color name="share_t_color">#FFA233</color>
+    <color name="snack_t_color">#F7E14D</color>
+    <color name="tik_t_color">#EE1D52</color>
+    <color name="tmx_t_color">#FA3163</color>
+    <color name="twitter_t_color">#47ACDF</color>
+    <color name="vimeo_t_color">#00BCD4</color>
+    <color name="zili_t_color">#F9FF15</color>
+    <color name="triller_t_color">#c22c7b</color>
+</resources>

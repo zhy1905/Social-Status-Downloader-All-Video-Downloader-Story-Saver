@@ -1,0 +1,210 @@
+<resources>
+    <string name="app_name" translatable="false">Social Status Downloader</string>
+
+
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+
+<!--    test id only used in debug mode NO need to change-->
+    <string name="admob_banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_native" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+
+
+
+    <string name="privacy_policy_url" translatable="false">https://imperiathemes.com/privacy-policy.pdf</string>
+    <string name="more_apps_url" translatable="false">https://play.google.com/store/apps</string>
+
+
+    <string name="foldername" translatable="false">All Status Saver</string>
+    <string name="folderwa" translatable="false">All WA Status Saver</string>
+
+    <string name="ad_attribution" translatable="false">ad</string>
+
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">OK</string>
+
+    <string name="wapp_permission">Click on this button and Allow permission to access your status</string>
+    <string name="allow_storage_access">Allow storage access</string>
+    <string name="step_1">Step 1</string>
+    <string name="first_step">Tap on icon to open Whatsapp and First you have to see Status from Whatsapp</string>
+    <string name="wa_first_step">Tap on icon to open WA Business and First you have to see Status from Whatsapp Business</string>
+    <string name="step_2">Step 2</string>
+    <string name="second_step">Once you seen Status in Whatsapp then open this application</string>
+    <string name="wa_second_step">Once you seen Status in Whatsapp Business then open this application</string>
+    <string name="step_3">Step 3</string>
+    <string name="step_three">Your seen status will be here in this app and from here you can Download and Share</string>
+
+
+    <!--insta-->
+    <string name="dl_started">Download started</string>
+    <string name="downloaded">Media downloaded successfully</string>
+    <string name="downloading">Please wait…Downloading Media</string>
+    <string name="write_permission_msg">Write Storage permission is required to save videos and images</string>
+    <string name="yes">Yes</string>
+    <string name="permission_req">Permission Required</string>
+    <string name="instagram_not_found">Please Install Instagram First For Use This App.</string>
+    <string name="facebook_not_found">Please Install Facebook First For Use This App.</string>
+    <string name="youtube_not_found">Please Install youtube First For Use This App.</string>
+    <string name="dailymotion_not_found">Please Install Dailymotion First For Use This App.</string>
+    <string name="pinterest_not_found">Please Install Pinterest First For Use This App.</string>
+    <string name="chingari_not_found">Please Install Chingari First For Use This App.</string>
+
+    <!--tiktok-->
+    <string name="step_4">Step 4</string>
+    <string name="tik_server">https://tinyurl.com/3snv38ez</string>
+    <string name="tik_location">Location</string>
+    <string name="tik_not_marked">not_marked</string>
+
+    <string name="whatsapp">Whatsapp</string>
+    <string name="wa_business">WA Business</string>
+    <string name="instagram">Instagram</string>
+    <string name="tiktok">Tiktok</string>
+    <string name="likee">Likee</string>
+    <string name="fb">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="gallery">Gallery</string>
+    <string name="vimeo">Vimeo</string>
+    <string name="recent_status">Recent status</string>
+    <string name="help">Help</string>
+    <string name="snackvideo">SnackVideo</string>
+    <string name="sharechat">ShareChat</string>
+    <string name="roposo">Roposo</string>
+    <string name="chingari">Chingari</string>
+    <string name="moj">Moj</string>
+    <string name="mx_takatak">MX TakaTak</string>
+    <string name="invalid">Invalid URL!!!</string>
+    <string name="mitron">Mitron</string>
+    <string name="zili">Zili</string>
+
+
+    <string name="delete">Delete</string>
+    <string name="deleteConfirmation">Are you sure you want to delete it?</string>
+    <string name="no">No</string>
+    <string name="saveSuccess">Saved successfully!</string>
+    <string name="errFile">Sorry we can\'t move file.try with other file.</string>
+    <string name="vidDownloading">The Video is Already Downloading</string>
+    <string name="allApplication">All Applications</string>
+    <string name="my_gallery">My Gallery</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="settings">Settings</string>
+    <string name="download_from_private_account">Download from Private Account</string>
+    <string name="enter_url">Enter url</string>
+    <string name="enter_valid_url">Enter valid url</string>
+    <string name="app_not_available">App Not Available.</string>
+
+    <string name="view_stories">View Stories and Download from Private Account</string>
+    <string name="login">Login</string>
+    <string name="stories">Stories</string>
+    <string name="cancel">Cancel</string>
+    <string name="do_u_want_to_download_media_from_pvt">Don\'t Want to Download Media from Private Account?</string>
+    <string name="no_net_conn">No Internet Connection</string>
+    <string name="downloadin_video">Downloading Video…</string>
+    <string name="download_complete">Download Completed</string>
+
+    <string name="facebook_api_base_url"></string>
+    <string name="img_todo">imgTODO</string>
+    <string name="josh">Josh</string>
+    <string name="download_failed">Download Failed</string>
+
+    <string name="text_notif_download_error">Sorry, error while downloading…</string>
+    <string name="text_notif_download_finished">Download finished!</string>
+    <string name="text_notif_downloading">Downloading</string>
+    <string name="text_notif_stop">You stopped the downloading</string>
+    <string name="youtube">Youtube</string>
+
+    <string name="rationale_storage">This app needs the storage permission. Please allow it!</string>
+    <string name="chingari_step_1">First click on chingari button and open chingari app.</string>
+    <string name="chingari_step_2">Click on the more button icon on chingari video.</string>
+    <string name="chingari_step_3">Click on \'Share Link\' option.</string>
+
+    <string name="common_step">Paste link and tap on download button. Video download automatically and video will be saved to your device.You can see all downloaded media on this app\'s gallery.</string>
+
+    <string name="fb_step_1">First click on facebook button and open facebook.</string>
+    <string name="fb_step_2">Click on the three dots option icon on facebook post.</string>
+    <string name="fb_step_3">Click on \'Copy Link\' option.</string>
+
+    <string name="instagram_step_3">Click on \'Copy Link\' option.</string>
+    <string name="instagram_step_2">Click on the three dots option icon on instagram post.</string>
+    <string name="instagram_step_1">First click on instagram button and open instagram.</string>
+
+    <string name="josh_step_3">Click on \'Copy Link\' option.</string>
+    <string name="josh_step_2">Click on the three dot icon on josh video.</string>
+    <string name="josh_step_1">First click on josh button and open josh app.</string>
+
+    <string name="triller_step_3">Click on \'Copy Link\' option.</string>
+    <string name="triller_step_2">Click on the share button icon on triller video.</string>
+    <string name="triller_step_1">First click on triller button and open triller app.</string>
+
+    <string name="vimeo_step_4">Click on copy button.</string>
+    <string name="vimeo_step_3">Click on share option.</string>
+    <string name="vimeo_step_2">Click on the share button.</string>
+    <string name="vimeo_step_1">First click on vimeo button and open vimeo app.</string>
+
+    <string name="youtube_step_3">Click on \'copy link\' option.</string>
+    <string name="youtube_step_4">Click on \'share\' option.</string>
+    <string name="youtube_step_2">Click on the three dots option icon on youtube videos.</string>
+    <string name="youtube_step_1">First click on youtube button and open youtube app.</string>
+
+
+    <string name="dailymotion_step_3">Click on \'copy link\' button.</string>
+    <string name="dailymotion_step_2">Click on \'share\' option.</string>
+    <string name="dailymotion_step_1">First click on Dailymotion button and open Dailymotion app.</string>
+
+    <string name="pint_step_3">Click on \'copy link\' button.</string>
+    <string name="pint_step_2">Click on \'share\' option.</string>
+    <string name="pint_step_1">First click on Pinterest button and open Pinterest app.</string>
+    <string name="triller">Triller</string>
+    <string name="dailymotion">Daily Motion</string>
+    <string name="snapChat">Snapchat</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="paste">Paste</string>
+    <string name="download">Download</string>
+    <string name="language">Language</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share_app">Share App</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="more_apps">More Apps</string>
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="gujarti">Gujarati</string>
+    <string name="paste_link_here">Paste link here</string>
+    <string name="how_to_use">How To Use?</string>
+    <string name="click_on_copy_link_option">Click on \'Copy Link\' option.</string>
+    <string name="preview">Preview</string>
+    <string name="share">Share</string>
+    <string name="save">Save</string>
+    <string name="step_5">Step 5</string>
+    <string name="loading">Loading.....</string>
+    <string name="select_video_quality">Select Video Quality</string>
+    <string name="low_quality">Low Quality</string>
+    <string name="high_quality">High Quality</string>
+    <string name="there_s_no_status">There\'s no status.</string>
+    <string name="there_s_nothing_here">There\'s nothing here.</string>
+    <string name="paste_url_and_download">Please paste url and download!!!!</string>
+    <string name="url_not_exits">Url not exists!!!!</string>
+    <string name="internet_not_available">Internet Connection not available!!!!</string>
+    <string name="status_save_success">Status saved successfully</string>
+    <string name="sry_we_cant_move_this_file">Sorry we can\'t move file.try with other file.</string>
+    <string name="whatsapp_not_available">Whatsapp not install in your device!</string>
+    <string name="download_whatsapp">Please Install WhatsApp For Download Status!!!!!</string>
+    <string name="download_whatsapp_business">Please Install WhatsApp Business For Download Status!!!!!</string>
+    <string name="no_advertisment">No Advertisement</string>
+    <string name="oneTimePurchase">One Time Purchase</string>
+
+    <string name="purchase_now">Purchase Now</string>
+    <string name="history">My History</string>
+    <string name="no_hostory_found">No History Found</string>
+    <string name="no_purchase_found">No Purchase Found</string>
+    <string name="purchase_successfully">Purchase Successfully</string>
+
+
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Gujarati</item>
+    </string-array>
+
+</resources>
